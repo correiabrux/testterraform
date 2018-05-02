@@ -1,0 +1,16 @@
+[
+   {
+      "name":"first",
+      "image":"nginx",
+      "cpu":10,
+      "memory":512,
+      "requires_compatibilities":"FARGATE",
+      "essential":true,
+      "portMappings":[
+         {
+            "containerPort":80,
+            "hostPort":80
+         }
+      ]
+   }
+]

@@ -1,0 +1,3 @@
+variable "iamid" {
+  type = "string"
+}

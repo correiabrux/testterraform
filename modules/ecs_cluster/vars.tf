@@ -1,0 +1,3 @@
+variable "clustername" {
+  type = "string"
+}
